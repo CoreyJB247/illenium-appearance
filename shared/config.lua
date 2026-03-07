@@ -2,10 +2,10 @@ Config = {}
 
 Config.Debug = false
 
-Config.ClothingCost = 100
-Config.BarberCost = 100
+Config.ClothingCost = 1
+Config.BarberCost = 15
 Config.TattooCost = 100
-Config.SurgeonCost = 100
+Config.SurgeonCost = 250
 
 Config.ChargePerTattoo = true -- Charge players per tattoo. Config.TattooCost will become the cost of 1 tattoo. The cost can be overridden by adding `cost` key in shared/tattoos.lua for specific tattoos
 
@@ -71,7 +71,7 @@ Config.BossManagedOutfits = false -- Allows Job / Gang bosses to manage their ow
 
 Config.ReloadSkinCooldown = 5000
 
-Config.AutomaticFade = false -- Enables automatic fading and hides the Fade section from Hair
+Config.AutomaticFade = true -- Enables automatic fading and hides the Fade section from Hair
 
 Config.DisableComponents = {
     Masks = false,
@@ -174,6 +174,28 @@ Config.TargetConfig = {
 }
 
 Config.Stores = {
+    -- Police Stations
+    {
+        type = "clothing",
+        coords = vec4(458.28, -998.6, 30.68, 357.72),
+        size = vector3(4, 4, 4),
+        rotation = 45,
+        usePoly = false, -- false => uses the size + rotation to create the zone | true => uses points to create the zone
+        job = "police",
+        points = {
+        }
+    },
+    {
+        type = "clothing",
+        coords = vec4(-3151.92, 1135.68, 21.08, 151.68),
+        size = vector3(4, 4, 4),
+        rotation = 45,
+        usePoly = false, -- false => uses the size + rotation to create the zone | true => uses points to create the zone
+        job = "police",
+        points = {
+        }
+    },
+    -- Normal
     {
         type = "clothing",
         coords = vector4(1693.2, 4828.11, 42.07, 188.66),
@@ -558,23 +580,6 @@ Config.Stores = {
 
 
 Config.ClothingRooms = {
-    {
-        job = "police",
-        coords = vector4(454.91, -990.89, 30.69, 193.4),
-        size = vector3(4, 4, 4),
-        rotation = 45,
-        usePoly = false,
-        points = {
-            vector3(460.41918945312, -993.11444091797, 30.69),
-            vector3(449.39508056641, -993.60614013672, 30.69),
-            vector3(449.88696289062, -990.23779296875, 30.69),
-            vector3(450.97882080078, -989.71411132812, 30.69),
-            vector3(451.0325012207, -987.89904785156, 30.69),
-            vector3(453.47863769531, -987.76928710938, 30.69),
-            vector3(454.35513305664, -988.46459960938, 30.69),
-            vector3(460.4231262207, -987.94573974609, 30.69)
-        }
-    }
 }
 
 
