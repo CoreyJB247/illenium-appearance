@@ -180,6 +180,7 @@ Config.Stores = {
         coords = vec4(458.28, -998.6, 30.68, 357.72),
         size = vector3(4, 4, 4),
         rotation = 45,
+        showBlip = false,
         usePoly = false, -- false => uses the size + rotation to create the zone | true => uses points to create the zone
         job = "police",
         points = {
@@ -187,10 +188,55 @@ Config.Stores = {
     },
     {
         type = "clothing",
-        coords = vec4(-3151.92, 1135.68, 21.08, 151.68),
+        coords = vec4(1825.24, 3679.68, 34.4, 115.36),
+        size = vector3(4, 4, 4),
+        rotation = 45,
+        showBlip = false,
+        usePoly = false, -- false => uses the size + rotation to create the zone | true => uses points to create the zone
+        job = "police",
+        points = {
+        }
+    },
+    {
+        type = "clothing",
+        coords = vec4(1543.64, 816.32, 77.64, 327.36),
+        size = vector3(4, 4, 4),
+        rotation = 45,
+        showBlip = false,
+        usePoly = false, -- false => uses the size + rotation to create the zone | true => uses points to create the zone
+        job = "police",
+        points = {
+        }
+    },
+    {
+        type = "clothing",
+        coords = vec4(853.48, -1290.0, 26.72, 264.28),
+        size = vector3(4, 4, 4),
+        rotation = 45,
+        showBlip = false,
+        usePoly = false, -- false => uses the size + rotation to create the zone | true => uses points to create the zone
+        job = "police",
+        points = {
+        }
+    },
+    {
+        type = "clothing",
+        coords = vec4(-438.08, 5989.0, 31.96, 136.08),
+        size = vector3(4, 4, 4),
+        rotation = 45,
+        showBlip = false,
+        usePoly = false, -- false => uses the size + rotation to create the zone | true => uses points to create the zone
+        job = "police",
+        points = {
+        }
+    },
+    {
+        type = "clothing",
+        coords = vec4(-570.04, -105.04, 33.68, 109.6),
         size = vector3(4, 4, 4),
         rotation = 45,
         usePoly = false, -- false => uses the size + rotation to create the zone | true => uses points to create the zone
+        showBlip = false,
         job = "police",
         points = {
         }
@@ -435,19 +481,6 @@ Config.Stores = {
     },
     {
         type = "barber",
-        coords = vector4(1931.41, 3729.73, 32.84, 212.08),
-        size = vector3(4, 4, 4),
-        rotation = 45,
-        usePoly = false,
-        points = {
-            vector3(1932.4931640625, 3725.3374023438, 32.84),
-            vector3(1927.2720947266, 3733.7663574219, 32.84),
-            vector3(1931.4379882812, 3736.5327148438, 32.84),
-            vector3(1936.0697021484, 3727.2839355469, 32.84)
-        }
-    },
-    {
-        type = "barber",
         coords = vector4(1212.8, -472.9, 65.2, 60.94),
         size = vector3(4, 4, 4),
         rotation = 45,
@@ -535,19 +568,6 @@ Config.Stores = {
             vector3(-3175.4802246094, 1075.0703125, 20.83),
             vector3(-3172.2041015625, 1080.5860595703, 20.83),
             vector3(-3167.076171875, 1078.0391845703, 20.83)
-        }
-    },
-    {
-        type = "tattoo",
-        coords = vector4(1864.1, 3747.91, 33.03, 17.23),
-        size = vector3(4, 4, 4),
-        rotation = 45,
-        usePoly = false,
-        points = {
-            vector3(1860.2752685547, 3750.1608886719, 33.03),
-            vector3(1866.390625, 3752.8081054688, 33.03),
-            vector3(1868.6164550781, 3747.3562011719, 33.03),
-            vector3(1863.65234375, 3744.5034179688, 33.03)
         }
     },
     {
